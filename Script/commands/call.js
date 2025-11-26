@@ -2,7 +2,7 @@ module.exports.config = {
  name: "call",
  version: "1.0.0",
  hasPermssion: 0,
- credits: "—͟͟͞͞𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️", //don't change my credit 
+ credits: "—͟͟͞͞𝐎𝐇𝐈𝐃 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑪𝑶𝑴𝑴𝑼𝑵𝑰𝑻𝒀_ ☢️", //don't change my credit 
  description: "কল বোম্বার, শুধুমাত্র বাংলাদেশি নাম্বারের জন্য",
  commandCategory: "Tool",
  usages: "/call 01xxxxxxxxx",
@@ -25,7 +25,7 @@ module.exports.run = async ({ api, event, args }) => {
  api.unsendMessage(info.messageID);
  }, 90000);
  
- return api.sendMessage(`✅ —͟͟͞͞𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 কল বোম্বিং সম্পন্ন হয়েছে ${number} নম্বরে।`, event.threadID, event.messageID);
+ return api.sendMessage(`✅ —͟͟͞͞𝐎𝐇𝐈𝐃 ☢️_𖣘 -𝐁𝐎𝐓 কল বোম্বিং সম্পন্ন হয়েছে ${number} নম্বরে।`, event.threadID, event.messageID);
  } catch (error) {
  return api.sendMessage(`❌ ত্রুটি: ${error.message}`, event.threadID, event.messageID);
  }
